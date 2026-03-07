@@ -1,0 +1,1 @@
+"""Teacher agents FastAPI application."""
