@@ -9,4 +9,26 @@ wheels/
 # Virtual environments
 .venv
 .idea
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
 /vars/.env
+
+# Dependencies
+node_modules/
+
+# Frontend / Node
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

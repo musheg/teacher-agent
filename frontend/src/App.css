@@ -1,0 +1,51 @@
+.page {
+  text-align: center;
+  padding: 2rem;
+  max-width: 420px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  color: #71717a;
+  font-size: 0.95rem;
+  margin: 0 0 2rem;
+}
+
+.api-card {
+  background: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+
+.api-card h2 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #a1a1aa;
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.api-card p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.muted {
+  color: #71717a;
+}
+
+.success {
+  color: #22c55e;
+}
+
+.error {
+  color: #ef4444;
+}
