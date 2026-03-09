@@ -13,7 +13,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "5173:5173"
+      - "5174:5173"
     environment:
       - VITE_PROXY_TARGET=http://api:8000
     depends_on:
